@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>팀원 소개</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .team-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .team-member {
+            background-color: white;
+            border-radius: 10px;
+            margin: 15px;
+            padding: 20px;
+            width: 220px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .team-member:hover {
+            transform: translateY(-10px);
+        }
+        .team-member img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        .team-member h3 {
+            margin: 10px 0;
+        }
+        .team-member p {
+            margin: 5px 0;
+            color: gray;
+        }
+        .team-member .age, .team-member .personality, .team-member .hobby {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="team-container">
+        <div class="team-member">
+            <img src="member1.jpg" alt="팀원1 사진">
+            <h3>홍길동</h3>
+            <p>컴퓨터공학과</p>
+            <p class="age">나이: 25</p>
+            <p class="personality">성격: 활발하고 외향적</p>
+            <p class="hobby">취미: 등산, 사진 찍기</p>
+        </div>
+
+        <div class="team-member">
+            <img src="member2.jpg" alt="팀원2 사진">
+            <h3>김영희</h3>
+            <p>디자인학과</p>
+            <p class="age">나이: 22</p>
+            <p class="personality">성격: 차분하고 논리적</p>
+            <p class="hobby">취미: 그림 그리기, 독서</p>
+        </div>
+
+        <!-- 나머지 팀원 추가 -->
+
+    </div>
+
+</body>
+</html>
